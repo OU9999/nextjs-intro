@@ -6,15 +6,15 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/old-blog/:path*",
-        destination: "/new-blog/:path*",
-        permanent: false,
-      },
-    ];
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/old-blog/:path*",
+  //       destination: "/new-blog/:path*",
+  //       permanent: false,
+  //     },
+  //   ];
+  // },
   async rewrites() {
     return [
       {
