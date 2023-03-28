@@ -6,15 +6,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/old-blog/:path*",
-  //       destination: "/new-blog/:path*",
-  //       permanent: false,
-  //     },
-  //   ];
-  // },
+  output: "export",
   async rewrites() {
     return [
       {
